@@ -1,0 +1,64 @@
+body{
+    font-weight: 400; /* define o nivel de negrito do texto */
+    font-family: lato, Helvetica, sans-serif; /* aqui define a fonte do texto */
+    font-size: 15px; /* define o tamanho da fonte */
+    line-height: 2.2em; /* pripriedade que define a altura de cada linha */
+    color: #818181; /* define a cor do texto */
+    margin: 0; /* define se terá margem ou não no site */
+    background-color: #1C1B1B;
+}
+/* */
+header{
+    background-color: black;
+    text-align: center; /* centraliza a página */
+}
+
+section
+
+header h3
+
+h2{
+    color: whitesmoke; /* aqui define a cor da tag */
+    font-size: 53px;  /* aqui define o tamanho da fonte */
+    padding: 20px; /* cria uma margem para dentro  */
+}
+
+h3{
+    color: whitesmoke;
+    text-transform: uppercase; /* permite transformar todo texto em letras maiuscula ou minuscula */
+    font-weight: 600; /* define o nivel de negrito */
+    font-size: 45px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgb(172, 172, 83);
+}
+figcaption h2{
+    color: whitesmoke; /* aqui define a cor da tag */
+    font-size: 53px;  /* aqui define o tamanho da fonte */
+    padding: 5px; /* cria uma margem para dentro  */
+}
+
+
+  
+  /* CSS para centralizar os itens da lista horizontalmente */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding:  0; /* Remove o padding padrão da lista */
+    background-color: rgb(167, 167, 7);
+  }
+  
+  /* CSS para remover as cores e bordas dos links (se necessário) */
+  nav ul li a {
+    color: black; /* Remove a cor do texto, herda a cor do elemento pai */
+    background-color: transparent; /* Remove a cor de fundo */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding:  40px; /* Adiciona um pouco de espaço ao redor dos links */
+    font-size: 20px;
+
+  }
+  
+  a {
+    font-family: lato, Helvetica, sans-serif;
+    font-weight: 1000;
+  }
